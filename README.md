@@ -32,7 +32,7 @@ They work in 2 phases:
 - Initial: ran before the website will be published, a massive population
 - Online: while the website will be up and running, it will add information in case of requests not satisfied
 
-The feeder is composed of at least 3 containerized .Net 7 service workers communicating via an event bus (RabbitMQ):
+A feeder is composed of at least 3 containerized .Net 7 service workers communicating via an event bus (RabbitMQ):
 
 - Crawler: fetching the webpages with the information
 - Scraper: scraping the webpage and preparing the information to be written
